@@ -13,6 +13,7 @@ function whileLoop(n) {
   let countdown = n 
   while (countdown > 0) {
     console.log(countdown)
+<<<<<<< HEAD
     countdown--
   }
   return 'done'
@@ -31,4 +32,9 @@ do {
 }
 while (array.length > 0 && incrementVariable())
 return array 
+=======
+    n--
+  }
+  return 'done'
+>>>>>>> 510c055b71e37f46ce1bc31fd153e3b61eca115d
 }
